@@ -49,12 +49,12 @@ const Rules = () => {
               <li>Parametri a discrezione del partecipante</li>
             </ul>
           </li>
-          <li>Il vincitore del Fantabiscotto avrà gloria eterna</li>
+          <li>Il vincitore del FantaBiscotto avrà gloria eterna</li>
           <li>
-            Il comitato del Fantabiscotto può intervenire in caso di
+            Il comitato del FantaBiscotto può intervenire in caso di
             contestazione
           </li>
-          <li>Buon Fantabiscotto!</li>
+          <li>Buon FantaBiscotto!</li>
         </ol>
       </div>
     </>

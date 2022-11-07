@@ -37,6 +37,11 @@
 
 .header-menu-btn {
     margin-right: 2rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .app-header-nav li {
@@ -117,14 +122,16 @@
     }
 
     .header-menu-btn button {
-        display: flex;
         align-items: center;
-        justify-content: center;
-        height: 2rem;
-        width: 2rem;
-        background-color: transparent;
-        color: white;
+        background-color: initial;
         border: none;
+        color: #fff;
+        display: flex;
+        height: 2rem;
+        justify-content: center;
+        width: 2rem;
+        height: 100%;
+        width: 100%;
     }
 
     .header-menu-btn button svg {
