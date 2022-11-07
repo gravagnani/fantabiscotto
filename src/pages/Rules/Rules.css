@@ -1,0 +1,22 @@
+.main-rules {
+    max-width: 100%;
+    padding: 5rem 20%;
+}
+
+.main-rules ol li {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.main-rules ul li {
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main-rules {
+        padding: 4rem 1rem
+    }
+
+}

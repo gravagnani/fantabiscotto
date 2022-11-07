@@ -1,0 +1,54 @@
+.draw-page {
+    padding: 4rem 0rem;
+}
+
+div.draw-match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+div.draw-match-participant {
+    border-radius: 20px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: white;
+    height: 40px;
+    align-items: center;
+    border: 1px solid #000000;
+    margin-bottom: 4px;
+    padding: 0 15px;
+}
+
+div.draw-match-participant.winner {
+    background: #D4B783;
+}
+
+div.participant-name {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+div.participant-name .name {
+    font-weight: bold;
+}
+
+div.participant-name .score {
+    
+}
+
+div.participant-score {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 30px;
+    font-weight: bold;
+}
+
