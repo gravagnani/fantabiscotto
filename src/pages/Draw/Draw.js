@@ -18,8 +18,8 @@ const Draw = () => {
       background: { wonColor: "#87b2c4", lostColor: "#ffffff" },
       text: { highlightedWonColor: "#000000", highlightedLostColor: "#000000" },
     },
-    roundHeader: { backgroundColor: "#89634A", fontColor: "#ffffff" },
-    connectorColor: "#CED1F2",
+    roundHeader: { backgroundColor: "#D4B783", fontColor: "#000000" },
+    connectorColor: "#89634A",
     connectorColorHighlight: "#da96c6",
     svgBackground: "#FAFAFA",
   });
