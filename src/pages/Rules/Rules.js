@@ -18,6 +18,7 @@ const Rules = () => {
             <ul>
               <li>Devono essere secchi</li>
               <li>Non devono contenere creme e / o cioccolato</li>
+              <li>Possono contenere gocce di cioccolato</li>
               <li>Possono contenere cacao</li>
               <li>
                 Devono essere biscotti "popolari", ovvero che si possono trovare
