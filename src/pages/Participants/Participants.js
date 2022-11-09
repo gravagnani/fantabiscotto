@@ -11,14 +11,14 @@ const Card = (props) => {
 
   const imgB = biscuitsImg ? biscuitsImg : require("../../images/galletti.jpg");
 
-  const [img, setImg] = useState(imgA);
+  const [img, setImg] = useState(imgB);
 
   const onMouseEnterHandler = () => {
-    setImg(imgB);
+    setImg(imgA);
   };
 
   const onMouseLeaveHandler = () => {
-    setImg(imgA);
+    setImg(imgB);
   };
 
   return (
