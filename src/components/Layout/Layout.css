@@ -82,6 +82,8 @@
 
     .app-title {
         font-size: 1.5rem;
+        display: flex;
+        align-items: center;
     }
 
     .app-header-nav-mobile {
