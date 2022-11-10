@@ -9,7 +9,7 @@ const Card = (props) => {
 
   const imgA = avatarImg ? avatarImg : require("../../images/avatar.png");
 
-  const imgB = biscuitsImg ? biscuitsImg : require("../../images/galletti.jpg");
+  const imgB = biscuitsImg ? biscuitsImg : require("../../images/avatar.png");
 
   const [img, setImg] = useState(imgB);
 
@@ -25,8 +25,8 @@ const Card = (props) => {
     <div className="part-card">
       <div
         className="part-card-media"
-        onMouseEnter={onMouseEnterHandler}
-        onMouseLeave={onMouseLeaveHandler}
+        // onMouseEnter={onMouseEnterHandler}
+        // onMouseLeave={onMouseLeaveHandler}
       >
         <img className="part-card-media-img" src={img} />
       </div>
