@@ -1,6 +1,6 @@
 const participants = [
   {
-    id: 2,
+    id: 1,
     name: "#pagaLappon",
     avatarImg: "",
     biscuit: "Krumiri con gocce di Cioccolato",
@@ -9,7 +9,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 3,
+    id: 2,
     name: "#PD-CHI-MANGIA-I-GALLETTI",
     avatarImg: "",
     biscuit: "Pan di Stelle Coop",
@@ -18,7 +18,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 4,
+    id: 3,
     name: "Adp",
     avatarImg: "",
     biscuit: "Danish Butter Cookies",
@@ -27,7 +27,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 5,
+    id: 4,
     name: "Alessandro",
     avatarImg: "",
     biscuit: "Cereali G Galbusera granola e frolla con pezzi di Cioccolato",
@@ -36,7 +36,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 6,
+    id: 5,
     name: "Alex D.",
     avatarImg: "",
     biscuit: "Gocciole Pavesi Classiche",
@@ -45,7 +45,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 7,
+    id: 6,
     name: "Anna",
     avatarImg: "",
     biscuit: "Tre Marie Ancora Uno Frolla con Cioccolato in pezzi",
@@ -54,7 +54,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 8,
+    id: 7,
     name: "Anzo",
     avatarImg: "",
     biscuit: "Nascondini Mulino Bianco",
@@ -63,7 +63,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 1,
+    id: 8,
     name: "Beppe",
     avatarImg: "",
     biscuit: "Galletti Mulino Bianco",
@@ -112,8 +112,8 @@ const participants = [
     id: 13,
     name: "Diego",
     avatarImg: "",
-    biscuit: "",
-    biscuitsImg: "",
+    biscuit: "Ritornelli Mulino Bianco",
+    biscuitsImg: require("../images/ritornelli.jpg"),
     biscuitsLink: "",
     isAlive: true,
   },
@@ -128,6 +128,15 @@ const participants = [
   },
   {
     id: 15,
+    name: "Fede",
+    avatarImg: "",
+    biscuit: "Lotus",
+    biscuitsImg: require("../images/lotus.jpg"),
+    biscuitsLink: "",
+    isAlive: true,
+  },
+  {
+    id: 16,
     name: "Gian",
     avatarImg: "",
     biscuit: "Batticuori Mulino Bianco",
@@ -136,7 +145,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 16,
+    id: 17,
     name: "Guido",
     avatarImg: "",
     biscuit: "Rigoli Mulino Bianco",
@@ -145,7 +154,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 17,
+    id: 18,
     name: "Ivan",
     avatarImg: "",
     biscuit: "Digestives McVities",
@@ -154,16 +163,16 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 18,
+    id: 19,
     name: "Laura",
     avatarImg: "",
-    biscuit: "",
-    biscuitsImg: "",
+    biscuit: "Bucaneve Maxi gocce XL",
+    biscuitsImg: require("../images/bucaneve-gocce.jpg"),
     biscuitsLink: "",
     isAlive: true,
   },
   {
-    id: 19,
+    id: 20,
     name: "Marco",
     avatarImg: "",
     biscuit: "Gocciole Pavesi al Caramello",
@@ -172,7 +181,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 20,
+    id: 21,
     name: "Mattia",
     avatarImg: "",
     biscuit: "KAFFEREP Biscotti allo zenzero",
@@ -181,7 +190,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 21,
+    id: 22,
     name: "Mauro",
     avatarImg: "",
     biscuit: "Gocciole Pavesi Dark",
@@ -190,7 +199,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 22,
+    id: 23,
     name: "Michelle",
     avatarImg: "",
     biscuit: "Campiello",
@@ -199,7 +208,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 23,
+    id: 24,
     name: "Nikolas",
     avatarImg: "",
     biscuit: "Biscottone Mulino Bianco",
@@ -208,7 +217,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 24,
+    id: 25,
     name: "Pier",
     avatarImg: "",
     biscuit: "Gocciole Pavesi al Cocco",
@@ -217,7 +226,16 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 25,
+    id: 26,
+    name: "Riky",
+    avatarImg: "",
+    biscuit: "Tarallucci Mulino Bianco",
+    biscuitsImg: require("../images/tarallucci.jpg"),
+    biscuitsLink: "",
+    isAlive: true,
+  },
+  {
+    id: 27,
     name: "Sella Perderà",
     avatarImg: "",
     biscuit: "Abbracci Mulino Bianco",
@@ -226,7 +244,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 26,
+    id: 28,
     name: "Tavi",
     avatarImg: "",
     biscuit: "Macine Mulino Bianco",
@@ -235,7 +253,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 27,
+    id: 29,
     name: "Yle",
     avatarImg: "",
     biscuit: "Pan di Stelle",
@@ -244,7 +262,7 @@ const participants = [
     isAlive: true,
   },
   {
-    id: 28,
+    id: 30,
     name: "Zan",
     avatarImg: "",
     biscuit: "Scacchieri Mulino Bianco",

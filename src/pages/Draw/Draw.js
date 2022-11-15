@@ -80,8 +80,8 @@ const Draw = () => {
             </div>
             <div
               className={
-                topParty.isWinner
-                  ? "draw-match-participant "
+                bottomParty.isWinner
+                  ? "draw-match-participant winner"
                   : "draw-match-participant"
               }
             >

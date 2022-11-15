@@ -31,14 +31,18 @@ div.participant-name {
     display: flex;
     align-items: start;
     flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 70%;
 }
 
 div.participant-name .name {
     font-weight: bold;
+    white-space: nowrap;
 }
 
 div.participant-name .score {
-    
+    white-space: nowrap;
 }
 
 div.participant-score {

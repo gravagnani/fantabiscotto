@@ -7,14 +7,14 @@ const Card = (props) => {
   const { id, name, avatarImg, biscuit, biscuitsImg, biscuitsLink, isAlive } =
     props.participant;
 
-  const imgA = avatarImg ? avatarImg : require("../../images/avatar.png");
+  const imgA = avatarImg; //avatarImg ? avatarImg : require("../../images/avatar.png");
 
   const imgB = biscuitsImg ? biscuitsImg : require("../../images/avatar.png");
 
   const [img, setImg] = useState(imgB);
 
   const onMouseEnterHandler = () => {
-    setImg(imgA);
+    imgA && setImg(imgA);
   };
 
   const onMouseLeaveHandler = () => {
@@ -25,8 +25,8 @@ const Card = (props) => {
     <div className="part-card">
       <div
         className="part-card-media"
-        // onMouseEnter={onMouseEnterHandler}
-        // onMouseLeave={onMouseLeaveHandler}
+        onMouseEnter={onMouseEnterHandler}
+        onMouseLeave={onMouseLeaveHandler}
       >
         <img className="part-card-media-img" src={img} />
       </div>
